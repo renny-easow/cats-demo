@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    
+    /* Used a background css pattern available online */
+    background-color:#ddd;
+    background-image: 
+    radial-gradient(circle at 100% 150%, #ddd 24%, white 25%, white 28%, #ddd 29%, #ddd 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, #ddd 24%, white 25%, white 28%, #ddd 29%, #ddd 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, #ddd 11%, #ddd 23%, white 24%, white 30%, #ddd 31%, #ddd 43%, white 44%, white 50%, #ddd 51%, #ddd 63%, white 64%, white 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, #ddd 6%, #ddd 15%, white 16%, white 20%, #ddd 21%, #ddd 30%, white 31%, white 35%, #ddd 36%, #ddd 45%, white 46%, white 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, #ddd 6%, #ddd 15%, white 16%, white 20%, #ddd 21%, #ddd 30%, white 31%, white 35%, #ddd 36%, #ddd 45%, white 46%, white 49%, transparent 50%, transparent);
+    background-size:100px 50px;
+}
